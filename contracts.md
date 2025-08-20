@@ -31,7 +31,7 @@ This document outlines the API contracts and backend implementation requirements
 - `status`: String (default: "pending")
 
 ### 3. Static Data (No backend needed initially)
-- Ventures (`mockData.ventures`)
+- Ventures (`mockData.ventures`) - Updated with inclusive global diaspora copy targeting immigrants, workers, students, and NRBs
 - Services (`mockData.services`) 
 - Testimonials (`mockData.testimonials`)
 - About/Hero content
