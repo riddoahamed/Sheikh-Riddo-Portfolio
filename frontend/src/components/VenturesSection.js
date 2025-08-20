@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowRight, ExternalLink, Building, Users, Clock } from 'lucide-react';
+import { ArrowRight, ExternalLink, Building, Users, Clock, Facebook, Instagram } from 'lucide-react';
 import { mockData } from '../mock';
 
 const VenturesSection = () => {
