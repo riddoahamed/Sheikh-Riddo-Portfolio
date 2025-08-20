@@ -45,7 +45,7 @@ export const mockData = {
     {
       id: 3,
       name: "Global Diaspora Chapters",
-      description: "We plan to establish chapters in cities worldwide where Bangladeshi communities live, supporting them in building financial literacy and smarter investment habits.",
+      description: "Building connected communities across major cities worldwide where Bangladeshi diaspora live and thrive. These chapters serve as local hubs for financial literacy workshops, investment education, mentorship programs, and networking events. From Toronto to London, New York to Sydney—empowering our global community to build smarter financial futures together.",
       category: "Community",
       status: "Upcoming",
       website: "#" // Coming soon
