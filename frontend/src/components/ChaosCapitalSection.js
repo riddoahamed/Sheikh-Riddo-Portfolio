@@ -23,7 +23,7 @@ const ChaosCapitalSection = () => {
             </p>
             
             <p className="body-large mb-8">
-              Small, growing, and disciplined—built on conviction, not hype.
+              Small, growing, and disciplined—built on conviction, not hype. Through our global community network, we're also fostering financial inclusion and investment education for diaspora communities worldwide.
             </p>
             
             <button 
