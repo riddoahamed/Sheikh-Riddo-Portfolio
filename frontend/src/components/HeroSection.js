@@ -29,7 +29,7 @@ const HeroSection = () => {
       <div className="container">
         <div className="hero-content">
           <h1 className="brand-display mb-6">
-            💥 I sharpen decks. I back ideas. You raise better.
+            I sharpen decks. I back ideas. You raise better.
           </h1>
           
           <p className="body-large mb-8" style={{ maxWidth: '600px' }}>
