@@ -117,7 +117,7 @@ const Footer = () => {
                   hello@sheikhsajidriddo.com
                 </button>
                 
-                <div style={{ display: 'flex', gap: '16px', marginTop: '12px' }}>
+                <div style={{ display: 'flex', gap: '16px', marginTop: '12px', flexWrap: 'wrap' }}>
                   <button
                     onClick={() => handleSocialClick('LinkedIn')}
                     style={{
@@ -162,6 +162,144 @@ const Footer = () => {
                     }}
                   >
                     <Twitter size={16} />
+                  </button>
+
+                  <button
+                    onClick={() => handleSocialClick('Facebook')}
+                    style={{
+                      background: 'transparent',
+                      border: '1px solid var(--border-medium)',
+                      borderRadius: '8px',
+                      padding: '8px',
+                      cursor: 'pointer',
+                      color: 'var(--text-secondary)',
+                      transition: 'all 0.3s ease'
+                    }}
+                    onMouseOver={(e) => {
+                      e.target.style.borderColor = 'var(--brand-primary)';
+                      e.target.style.color = 'var(--brand-primary)';
+                    }}
+                    onMouseOut={(e) => {
+                      e.target.style.borderColor = 'var(--border-medium)';
+                      e.target.style.color = 'var(--text-secondary)';
+                    }}
+                  >
+                    <Facebook size={16} />
+                  </button>
+
+                  <button
+                    onClick={() => handleSocialClick('YouTube')}
+                    style={{
+                      background: 'transparent',
+                      border: '1px solid var(--border-medium)',
+                      borderRadius: '8px',
+                      padding: '8px',
+                      cursor: 'pointer',
+                      color: 'var(--text-secondary)',
+                      transition: 'all 0.3s ease'
+                    }}
+                    onMouseOver={(e) => {
+                      e.target.style.borderColor = 'var(--brand-primary)';
+                      e.target.style.color = 'var(--brand-primary)';
+                    }}
+                    onMouseOut={(e) => {
+                      e.target.style.borderColor = 'var(--border-medium)';
+                      e.target.style.color = 'var(--text-secondary)';
+                    }}
+                  >
+                    <Youtube size={16} />
+                  </button>
+
+                  <button
+                    onClick={() => handleSocialClick('Instagram')}
+                    style={{
+                      background: 'transparent',
+                      border: '1px solid var(--border-medium)',
+                      borderRadius: '8px',
+                      padding: '8px',
+                      cursor: 'pointer',
+                      color: 'var(--text-secondary)',
+                      transition: 'all 0.3s ease'
+                    }}
+                    onMouseOver={(e) => {
+                      e.target.style.borderColor = 'var(--brand-primary)';
+                      e.target.style.color = 'var(--brand-primary)';
+                    }}
+                    onMouseOut={(e) => {
+                      e.target.style.borderColor = 'var(--border-medium)';
+                      e.target.style.color = 'var(--text-secondary)';
+                    }}
+                  >
+                    <Instagram size={16} />
+                  </button>
+
+                  <button
+                    onClick={() => handleSocialClick('Medium')}
+                    style={{
+                      background: 'transparent',
+                      border: '1px solid var(--border-medium)',
+                      borderRadius: '8px',
+                      padding: '8px',
+                      cursor: 'pointer',
+                      color: 'var(--text-secondary)',
+                      transition: 'all 0.3s ease'
+                    }}
+                    onMouseOver={(e) => {
+                      e.target.style.borderColor = 'var(--brand-primary)';
+                      e.target.style.color = 'var(--brand-primary)';
+                    }}
+                    onMouseOut={(e) => {
+                      e.target.style.borderColor = 'var(--border-medium)';
+                      e.target.style.color = 'var(--text-secondary)';
+                    }}
+                  >
+                    <ExternalLink size={16} />
+                  </button>
+
+                  <button
+                    onClick={() => handleSocialClick('WhatsApp')}
+                    style={{
+                      background: 'transparent',
+                      border: '1px solid var(--border-medium)',
+                      borderRadius: '8px',
+                      padding: '8px',
+                      cursor: 'pointer',
+                      color: 'var(--text-secondary)',
+                      transition: 'all 0.3s ease'
+                    }}
+                    onMouseOver={(e) => {
+                      e.target.style.borderColor = 'var(--brand-primary)';
+                      e.target.style.color = 'var(--brand-primary)';
+                    }}
+                    onMouseOut={(e) => {
+                      e.target.style.borderColor = 'var(--border-medium)';
+                      e.target.style.color = 'var(--text-secondary)';
+                    }}
+                  >
+                    <MessageCircle size={16} />
+                  </button>
+
+                  <button
+                    onClick={() => handleSocialClick('GitHub')}
+                    style={{
+                      background: 'transparent',
+                      border: '1px solid var(--border-medium)',
+                      borderRadius: '8px',
+                      padding: '8px',
+                      cursor: 'pointer',
+                      color: 'var(--text-secondary)',
+                      transition: 'all 0.3s ease'
+                    }}
+                    onMouseOver={(e) => {
+                      e.target.style.borderColor = 'var(--brand-primary)';
+                      e.target.style.color = 'var(--brand-primary)';
+                    }}
+                    onMouseOut={(e) => {
+                      e.target.style.borderColor = 'var(--border-medium)';
+                      e.target.style.color = 'var(--text-secondary)';
+                    }}
+                  >
+                    <Github size={16} />
                   </button>
                 </div>
               </div>
