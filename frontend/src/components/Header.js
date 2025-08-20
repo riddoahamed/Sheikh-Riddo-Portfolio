@@ -35,12 +35,11 @@ const Header = () => {
           onClick={() => scrollToSection('hero')}
           style={{
             fontFamily: 'Inter, Arial, sans-serif',
-            fontWeight: 900,
-            fontSize: '1.5rem',
+            fontWeight: 600,
+            fontSize: '1.125rem',
             color: 'var(--brand-primary)',
             cursor: 'pointer',
-            textTransform: 'uppercase',
-            letterSpacing: '-0.02em'
+            letterSpacing: '0.02em'
           }}
         >
           Sheikh Sajid Riddo
