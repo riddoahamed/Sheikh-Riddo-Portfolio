@@ -68,10 +68,10 @@ const ChaosCapitalSection = () => {
               
               <div>
                 <h4 className="body-medium mb-2" style={{ color: 'var(--text-primary)', fontWeight: 600 }}>
-                  Alternative Assets
+                  Global Community Impact
                 </h4>
                 <p className="body-small">
-                  Unique opportunities in sectors others overlook, driven by fundamental value.
+                  Supporting diaspora communities through financial education, local chapters, and investment journey guidance.
                 </p>
               </div>
             </div>
