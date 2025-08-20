@@ -37,7 +37,7 @@ export const mockData = {
     {
       id: 2,
       name: "Cashflow Cult",
-      description: "A free investment education platform for Bangladeshis worldwide. Helping Gen Z, Millennials, and diaspora communities navigate their financial journeys. Story-driven lessons, AI-guided tools, and pilot programs that promote financial inclusion.",
+      description: "A free investment education platform for Bangladeshis worldwide. Helping Gen Z, Millennials, and diaspora communities navigate their financial journeys through story-driven lessons, AI-guided tools, and pilot programs that promote financial inclusion. Our global community chapters in major cities provide localized support, mentorship, and networking opportunities for building generational wealth.",
       category: "FinTech Education",
       status: "Active",
       website: "https://cashflowcult.com" // Mock URL
