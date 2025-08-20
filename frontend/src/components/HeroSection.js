@@ -18,12 +18,11 @@ const HeroSection = () => {
   return (
     <section id="hero" className="hero-section">
       <div className="hero-background">
-        <img 
-          src="https://images.unsplash.com/photo-1681949287382-052ea3954a51" 
-          alt="Collaborative business meeting"
-          className="hero-image"
-        />
-        <div className="hero-overlay"></div>
+        <div className="hero-animated-bg">
+          <div className="floating-shape"></div>
+          <div className="floating-shape"></div>
+          <div className="floating-shape"></div>
+        </div>
       </div>
       
       <div className="container">
