@@ -85,6 +85,77 @@ const VenturesSection = () => {
                 {venture.description}
               </p>
               
+              {/* Social Media Icons for specific ventures */}
+              {(venture.name === "The Hydration Company" || venture.name === "Cashflow Cult") && (
+                <div style={{ 
+                  display: 'flex', 
+                  gap: '12px', 
+                  marginBottom: '20px',
+                  alignItems: 'center'
+                }}>
+                  <span className="body-small" style={{ color: 'var(--text-secondary)', marginRight: '8px' }}>
+                    Follow us:
+                  </span>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleSocialClick('Facebook', venture.name);
+                    }}
+                    style={{
+                      background: 'transparent',
+                      border: '1px solid var(--border-medium)',
+                      borderRadius: '6px',
+                      padding: '6px',
+                      cursor: 'pointer',
+                      color: 'var(--text-secondary)',
+                      transition: 'all 0.3s ease',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center'
+                    }}
+                    onMouseOver={(e) => {
+                      e.target.style.borderColor = 'var(--brand-primary)';
+                      e.target.style.color = 'var(--brand-primary)';
+                    }}
+                    onMouseOut={(e) => {
+                      e.target.style.borderColor = 'var(--border-medium)';
+                      e.target.style.color = 'var(--text-secondary)';
+                    }}
+                  >
+                    <Facebook size={14} />
+                  </button>
+                  
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleSocialClick('Instagram', venture.name);
+                    }}
+                    style={{
+                      background: 'transparent',
+                      border: '1px solid var(--border-medium)',
+                      borderRadius: '6px',
+                      padding: '6px',
+                      cursor: 'pointer',
+                      color: 'var(--text-secondary)',
+                      transition: 'all 0.3s ease',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center'
+                    }}
+                    onMouseOver={(e) => {
+                      e.target.style.borderColor = 'var(--brand-primary)';
+                      e.target.style.color = 'var(--brand-primary)';
+                    }}
+                    onMouseOut={(e) => {
+                      e.target.style.borderColor = 'var(--border-medium)';
+                      e.target.style.color = 'var(--text-secondary)';
+                    }}
+                  >
+                    <Instagram size={14} />
+                  </button>
+                </div>
+              )}
+              
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--brand-primary)' }}>
                 {venture.website !== '#' ? (
                   <>
