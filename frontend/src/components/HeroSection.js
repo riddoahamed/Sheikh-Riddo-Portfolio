@@ -1,13 +1,8 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import { PopupWidget } from 'react-calendly';
 
 const HeroSection = () => {
-  const handleBookCall = () => {
-    // Mock calendly integration - will be replaced with real integration
-    console.log('Opening Calendly booking...');
-    alert('Calendly integration coming soon! For now, please email directly.');
-  };
-
   const handleWorkWithMe = () => {
     const element = document.getElementById('services');
     if (element) {
@@ -36,14 +31,19 @@ const HeroSection = () => {
           </p>
           
           <div className="flex-center-wrap">
-            <button 
+            <PopupWidget
+              url="https://calendly.com/sheikh-sajid-riddo/30min"
+              rootElement={document.getElementById('root')}
+              text="Book a Free 1:1 Call"
+              textColor="#1a1c1b"
+              color="#d9fb06"
               className="btn-primary"
-              onClick={handleBookCall}
-              style={{ display: 'flex', alignItems: 'center', gap: '8px' }}
-            >
-              Book a Free 1:1 Call
-              <ArrowRight size={16} />
-            </button>
+              styles={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px'
+              }}
+            />
             
             <button 
               className="btn-secondary"
