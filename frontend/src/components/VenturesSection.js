@@ -5,6 +5,12 @@ import { mockData } from '../mock';
 const VenturesSection = () => {
   const [selectedVenture, setSelectedVenture] = useState(null);
 
+  const handleSocialClick = (platform, ventureName) => {
+    // Mock social media links - will be replaced with real ones
+    console.log(`Opening ${platform} for ${ventureName}...`);
+    alert(`${platform} profile for ${ventureName} coming soon!`);
+  };
+
   const handleVentureClick = (venture) => {
     if (venture.website && venture.website !== '#') {
       // In a real app, this would open the actual website
